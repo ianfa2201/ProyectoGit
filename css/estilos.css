@@ -1,11 +1,12 @@
 
 
 h1 {
-    color: chartreuse;
+    color: blue;
     font: Arial;
     font-size: medium; 
 }
 
-[classCSS]{
+.classCSS{
     color:chartreuse;
 }
+
