@@ -8,5 +8,7 @@ h1 {
 
 .classCSS{
     color:chartreuse;
+    font-size: medium;
+    font: Arial;
 }
 
