@@ -21,11 +21,16 @@ p{
     text-align :center;
 }
 
-div, ol, h3 ,h4{
+ol, h3 ,h4, li{
     align-content: center;
     color: goldenrod;
 }
 
-#parrafoIzquierda{
+.parrafoIzquierda{
     text-align: left;
 }
+
+#parrafoCentro{
+    text-align: left;
+}
+
