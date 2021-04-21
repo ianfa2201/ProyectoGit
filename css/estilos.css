@@ -1,6 +1,6 @@
 
 
-h1, h3{
+h1{
     color:  darkgoldenrod;
     font: Arial;
     font-size: xx-large; 
@@ -21,7 +21,7 @@ p{
     text-align :center;
 }
 
-div, ol, h4{
+div, ol, h3 ,h4{
     align-content: center;
     color: goldenrod;
 }
