@@ -26,6 +26,10 @@ div{
 
 }
 
+#parrafoIzquierda{
+    text-align: left;
+}
+
 ol{
     color: goldenrod;
 }
