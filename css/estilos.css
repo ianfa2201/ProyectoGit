@@ -21,15 +21,11 @@ p{
     text-align :center;
 }
 
-div{
+div, ol{
     align-content: center;
-
+    color: goldenrod;
 }
 
 #parrafoIzquierda{
     text-align: left;
-}
-
-ol{
-    color: goldenrod;
 }
