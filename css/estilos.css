@@ -1,9 +1,10 @@
 
 
-h1 {
+h1, h3{
     color:  darkgoldenrod;
     font: Arial;
     font-size: xx-large; 
+    text-align: center;
 }
 
 .classCSS{
@@ -13,11 +14,14 @@ h1 {
 }
 
 body{
-    background-color: #1f2020;
-    
+    background-color: #1f2020;  
 }
 
 p{
     text-align :center;
+}
+
+div{
+    align-content: center;
 
 }
