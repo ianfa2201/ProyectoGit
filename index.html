@@ -9,13 +9,21 @@
         </head>
 
         <body>
+            
             <header>
-               <h1>Mi primera página HTML</h1>
+               <h1 id="inicio">Mi primera página HTML</h1>
                <h3>Si estas viendo esto, Te quiero mucho *o* </h3>
             </header>
 
+            <section>
+                <ul>
+                    <li> <a href="#parrafo1"> Párrafo 1 </a> </li>
+                    <li> <a href="#parrafo2"> Párrafo 2 </a> </li>
+                    <li> <a href="#PiePagina"> Pie de Página </a>
+                </ul>
+            </section>
             <div id="parrafoIzqueirda">
-                <p class="classCSS">
+                <p class="classCSS" id="parrafo1">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at arcu a diam posuere sagittis. Sed sed ultrices
                     leo. Vestibulum et sodales ex, quis semper erat. Curabitur porttitor elit quis metus consectetur, vitae tempus
                     quam efficitur. Sed feugiat feugiat est eu dapibus. Sed et ex cursus, dignissim massa sed, sodales arcu.
@@ -28,7 +36,7 @@
             <br>
             <div id="parrafoCentro">
 
-                <p class="classCSS" onclick="alert('hola mundo xd')">
+                <p class="classCSS" onclick="alert('hola mundo xd')" id="parrafo2">
                     Etiam placerat diam augue, quis convallis neque mattis et. Integer sit amet pulvinar neque, in dignissim lectus.
                     Curabitur at enim congue, tincidunt urna at, volutpat enim. Aliquam non nulla massa. Vestibulum laoreet
                     elementum tellus. Nam cursus bibendum dapibus. Curabitur id bibendum ex. Maecenas molestie mollis ipsum et
@@ -42,8 +50,12 @@
                         <li>Salir con amigos</li>
                         <li>Escuchar musíca a todo volumen</li>
                 </ul>
+                
+                
 
             </div>
+            
+            <footer id="PiePagina">Gracias por visita mi página web <a href="#inicio">Volver al inicio</a></footer>
 
         </body>
 
