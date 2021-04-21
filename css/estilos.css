@@ -22,7 +22,7 @@ p{
 }
 
 ol, h3 ,h4, li{
-    align-content: center;
+    text-align: center;
     color: goldenrod;
 }
 
