@@ -21,7 +21,7 @@ p{
     text-align :center;
 }
 
-div, ol{
+div, ol, h4{
     align-content: center;
     color: goldenrod;
 }
