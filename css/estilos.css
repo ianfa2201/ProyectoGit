@@ -21,13 +21,13 @@ p{
     text-align :center;
 }
 
-ol, h3 ,h4, li{
+ul, h3 ,h4, li{
     text-align: center;
-    color: goldenrod;
+    color: rgb(150, 0, 0);
 }
 
 .parrafoIzquierda{
-    text-align: left;
+    align-content: left;
 }
 
 #parrafoCentro{
